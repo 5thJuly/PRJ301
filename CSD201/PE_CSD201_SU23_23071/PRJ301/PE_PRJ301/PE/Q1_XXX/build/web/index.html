@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="register" method="POST">
+            <div>Student's Name: <input type="text" name="name"></div>
+            <div>Level: <input type="radio" name="level" value="Bsc"> BsC Program
+                <input type="radio" name="level" value="master"> Master Program
+                <input type="radio" name="level" value="PhD"> PhD Program
+            </div>
+            <div>Mode : <select name="mode">
+                    <option value="FullTime">Full Time</option>
+                    <option value="PartTime">Part Time</option>
+
+                </select>
+            </div>
+            <div>Enroll Date: <input type="date" name="date"></div>
+            <div><button>Save</button></div>
+        </form>
+    </body>
+</html>
