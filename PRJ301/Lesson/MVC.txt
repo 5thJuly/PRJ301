@@ -1,0 +1,45 @@
+MVC 
+
+M : mô hình hóa đối tượng, connect DB : Java : DTO,DAO,ERROR
+
+V : thiết kế giao diện: html, JSP, servlet
+
+C : điều phối : servlet, jsp,...
+
+JSP :  trang web động
+
+JSP biên dịch : class, source
+
++Tag
++ directive : <import> <include>
++ comments : ghi chú (java : 1 or n dòng, html, jsp)
+
++scripting element <% %>
+
+declarations : <%! %> : khai báo biến, hàm
+scriplet <% %>: chèn code Java
+Expression : <%= %> : hiển thị nội dung
+
+<form action : maincontroller 
+<submit> : name = action
+
+Quy trình : Thêm chức năng vào web_controller có main_controller
+
+1) Tạo viền chức năng
+2) Tạo main_controller : điều phối qua controller
+3) Tạo controller chức năng : DTO,DAO, ERR
+4) Tạo viền kết quả trả về
+
+
+
+
+Assignment : 
+-validation
+-login/logout/welcome 
+-search
+-create
+-update
+-delete
+-xác thực, phân quyền
+-Shopping
+_hitler
